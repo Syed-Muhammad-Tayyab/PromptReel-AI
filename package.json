@@ -1,0 +1,68 @@
+{
+  "name": "promptreel-ai",
+  "version": "1.0.0",
+  "description": "PromptReel - turn a title and topic into a vertical AI story video (script, images, voiceover, subtitles)",
+  "author": {
+    "name": "Syed Muhammad Tayyab",
+    "url": "https://github.com/Syed-Muhammad-Tayyab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syed-Muhammad-Tayyab/PromptReel-AI.git"
+  },
+  "homepage": "https://github.com/Syed-Muhammad-Tayyab/PromptReel-AI#readme",
+  "bugs": {
+    "url": "https://github.com/Syed-Muhammad-Tayyab/PromptReel-AI/issues"
+  },
+  "keywords": [
+    "ai-video",
+    "text-to-video",
+    "react",
+    "typescript",
+    "openai",
+    "elevenlabs",
+    "shorts",
+    "reels",
+    "tiktok"
+  ],
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "gen": "bun cli/cli.ts"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/animation-utils": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "@remotion/layout-utils": "^4.0.0",
+    "@remotion/media": "^4.0.0",
+    "@remotion/zod-types": "^4.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "^4.0.0",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@elevenlabs/elevenlabs-js": "2.20.0",
+    "@remotion/eslint-config-flat": "^4.0.0",
+    "@types/prompts": "2.4.9",
+    "@types/react": "19.2.7",
+    "@types/uuid": "11.0.0",
+    "@types/web": "0.0.166",
+    "@types/yargs": "17.0.33",
+    "chalk": "5.6.2",
+    "dotenv": "17.3.1",
+    "eslint": "9.39.5",
+    "ora": "9.0.0",
+    "prettier": "3.8.1",
+    "prompts": "2.4.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "uuid": "14.0.0",
+    "yargs": "18.0.0"
+  }
+}
